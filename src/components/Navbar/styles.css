@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  border-bottom: 1px solid var(--light-gray);
+  border-bottom: 1px solid rgba(58,58,58,0.2);
   background-image: linear-gradient(
     to bottom left,
     var(--dark-purple),
@@ -55,13 +55,11 @@
   display: flex;
 }
 
-.content-right .nav-item a {
-  font-size: 20px;
-  color: var(--light-color);
-  margin-right: 3rem;
-}
-
 .content-right .nav-item {
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.2s;
 }
 
@@ -69,6 +67,14 @@
   font-weight: 500;
   transform: scale(1.1);
 }
+
+.content-right .nav-item a {
+  font-size: 20px;
+  color: var(--light-color);
+}
+
+/* DROP MENU */
+
 .drop-menu {
   display: flex;
   color: var(--light-color);
@@ -78,6 +84,70 @@
 }
 
 .drop-menu:hover {
+  cursor: pointer;
+}
+
+#drop-container {
+  width: 100%;
+  height: 80%;
+  position: absolute; 
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  z-index: 9999;
+  border-bottom: 1px solid rgba(58,58,58,0.2);
+  background-color: var(--light-color);
+
+  top: -100rem;
+  visibility: hidden;
+  transition: 0.4s;
+}
+
+#drop-container.active {
+  top: 0;
+  visibility: visible;
+}
+ 
+.content-bottom a {
+  color: var(--light-purple);
+  font-size: 30px;
+  transition: 0.2s;
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+}
+
+.drop-content .drop-item {
+  margin-bottom: 2rem;
+}
+
+.drop-content .drop-item a {
+  font-size: 20px;
+  color: var(--dark-purple);
+}
+
+.drop-content .drop-item:hover {
+  font-weight: 500;
+  transform: scale(1.1);
+}
+
+.content-bottom svg:hover {
+  transform: scale(1.1);
+} 
+
+.close-icon {
+  width: 90%;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--dark-purple);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.close-icon svg:hover {
+  transform: scale(1.1);
   cursor: pointer;
 }
 
