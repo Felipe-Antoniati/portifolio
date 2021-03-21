@@ -55,11 +55,14 @@
   }
 }
 
-@media (max-width: 691px) {
+@media (max-width: 1007px) {
   #landing-page #middle {
-    height: 1500px;
+    height: 1100px;
   }
 
+}
+
+@media (max-width: 691px) {
   .cards #card {
     margin-left: 0rem;
   }
@@ -72,6 +75,12 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 619px) {
+  #landing-page #middle {
+    height: 1500px;
+  }
+} 
 
 @media (max-width: 320px) {
   #landing-page #middle .header-middle h2 {
