@@ -1,32 +1,8 @@
 #landing-page {
   width: 100vw;
   height: 100vh;
-  background: url("../../images/img1.png") no-repeat 50rem 5rem;
-  transition: 0.2s;
 }
 
-@media (max-width: 1200px) {
-   #landing-page {
-     background-position: 40rem 5rem; 
-   }
-}
-
-@media (max-width: 1070px) {
-   #landing-page {
-     background-position: 33rem 5rem; 
-   }
-}
-
-@media(max-width: 768px) {
-  #landing-page {
-    background-size: 25rem;
-    background-position: 10rem 30rem; 
-  }
-}
-
-@media(max-width: 650px) {
-  #landing-page {
-    background-size: 25rem;
-    background-position: center 22rem; 
-  }
+.fixed-content {
+  position: fixed;
 }

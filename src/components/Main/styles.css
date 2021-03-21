@@ -1,9 +1,11 @@
 #main-section {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url("../../images/img1.png") no-repeat 50rem 5rem;
+  transition: 0.2s;
 }
 
 .main-content {
@@ -42,6 +44,18 @@
   justify-content: flex-start;
 }
 
+@media (max-width: 1200px) {
+  #main-section {
+    background-position: 40rem 5rem; 
+  }
+}
+
+@media (max-width: 1070px) {
+  #main-section {
+    background-position: 33rem 5rem; 
+  }
+}
+
 @media(max-width: 768px) {
   .buttons-main {
     width: 100%;
@@ -50,6 +64,11 @@
   .main-content .description-main {
     font-size: 28px;
     max-width: 700px;
+  }
+
+  #main-section {
+    background-size: 25rem;
+    background-position: 10rem 30rem; 
   }
 }
 
@@ -62,5 +81,10 @@
   .main-content .title-main {
     font-size: 32px;
     margin-top: 7rem;
+  }
+
+  #main-section {
+    background-size: 25rem;
+    background-position: center 22rem; 
   }
 }
