@@ -55,12 +55,12 @@
 
 @media(max-width: 500px) {
   .main-content .description-main {
-    font-size: 22px;
-    max-width: 425px;
+    font-size: 19px;
+    max-width: 400px;
   }
 
   .main-content .title-main {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 7rem;
   }
 }

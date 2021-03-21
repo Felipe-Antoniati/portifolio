@@ -26,7 +26,7 @@
 
 @media(max-width: 650px) {
   #landing-page {
-    background-size: 16rem;
-    background-position: 5rem 24rem; 
+    background-size: 25rem;
+    background-position: center 22rem; 
   }
 }
