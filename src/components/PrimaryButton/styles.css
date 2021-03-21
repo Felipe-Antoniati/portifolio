@@ -31,3 +31,9 @@
     font-size: 0.9rem;
   }
 }
+
+@media(max-width: 320px) {
+  .btn-primary a {
+    font-size: 0.8rem;
+  }
+}

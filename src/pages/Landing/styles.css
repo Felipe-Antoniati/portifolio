@@ -64,3 +64,9 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 320px) {
+  #landing-page #middle .header-middle h2 {
+    font-size: 15px;
+  }
+}
