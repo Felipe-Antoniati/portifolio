@@ -8,7 +8,7 @@
   justify-content: center;
   position: fixed;
   background-image: linear-gradient(
-    to bottom left,
+    to top right,
     var(--dark-purple),
     var(--light-purple)
   );

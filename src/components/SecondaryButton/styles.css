@@ -29,3 +29,9 @@
     font-size: 1rem;
   }
 }
+
+@media(max-width: 374px) {
+  .btn-secondary a {
+    font-size: 0.9rem;
+  }
+}
