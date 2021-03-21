@@ -31,9 +31,13 @@
   margin-top: 2rem;
 }
 
+#landing-page #middle {
+  height: 670px;
+}
+
 @media (max-width: 1036px) {
   #landing-page #middle {
-    height: 1100px;
+    height: 700px;
   }
 
   .cards #card {
@@ -42,6 +46,10 @@
 }
 
 @media (max-width: 803px) {
+    #landing-page #middle {
+      height: 1090px;
+    }
+
   .footer-landing .btn-secondary {
     width: 40%;
   }

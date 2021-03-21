@@ -3,6 +3,7 @@ import Main from "../../components/Main";
 import Middle from "../../components/Middle";
 import Card from "../../components/Card";
 import SecondaryButton from "../../components/SecondaryButton";
+import Footer from "../../components/Footer";
 
 import imgHappy from "../../images/templates/happy.png";
 import imgBeachControl from "../../images/templates/beach-control.png";
@@ -55,6 +56,7 @@ export default function Landing() {
             path="/portifolio"
           />
         </div>
+        <Footer/>
       </Middle>
     </div>
   );
