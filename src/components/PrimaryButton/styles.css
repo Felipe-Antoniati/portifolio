@@ -6,7 +6,7 @@
 .btn-link {
   font-weight: 500;
   border-radius: 4px;
-  padding: 9px 21px;
+  padding: 9px 50px;
   outline: none;
   cursor: pointer;
   color: var(--light-theme);
@@ -20,4 +20,16 @@
   background-color: var(--light-theme);
   color: var(--normal-purple); 
   transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 535px) {
+  .btn-link {
+    padding: 9px 30px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .btn-link {
+    padding: 9px 15px;
+  }
 }

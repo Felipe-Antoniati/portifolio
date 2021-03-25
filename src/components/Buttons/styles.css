@@ -1,0 +1,8 @@
+.buttons {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.buttons #secondary-btn {
+  margin-left: 1rem;
+}
