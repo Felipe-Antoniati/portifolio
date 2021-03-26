@@ -1,9 +1,9 @@
-#nav-btn {
+#primary-btn {
   display: flex;
   align-items: center;
 }
 
-.btn-link {
+.primary-link {
   font-weight: 500;
   border-radius: 4px;
   padding: 9px 50px;
@@ -16,7 +16,7 @@
 
 }
 
-.btn-link:hover  {
+.primary-link:hover  {
   background-color: var(--light-theme);
   color: var(--normal-purple); 
   transition: all 0.2s ease-in-out;
