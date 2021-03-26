@@ -14,8 +14,7 @@ const About = () => {
       >
         <p>
           Gosto de transformar linhas de código
-          em soluções que facilitam a vida das pessoas, 
-          utilizando às tecnologias: Node.Js, React.Js e React Native
+          em soluções que facilitam a vida das pessoas
       </p>
       <Buttons 
         primaryText="Portifolio"

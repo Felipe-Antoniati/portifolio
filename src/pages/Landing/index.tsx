@@ -9,9 +9,8 @@ const Landing = () => {
     <Main 
       title="Felipe" 
       subtitle="Antoniati"
-      description="Desenvolvedor web front-end,
-      responsável por criar Aplicativos completos,
-      modernos e multiplataformas"
+      description="Desenvolvedor web front-end, responsável por 
+      criar Aplicativos completos, modernos e multiplataformas"
     >
       <Buttons 
         primaryText="Saiba Mais"

@@ -21,15 +21,3 @@
   color: var(--normal-purple); 
   transition: all 0.2s ease-in-out;
 }
-
-@media screen and (max-width: 535px) {
-  .btn-link {
-    padding: 9px 30px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .btn-link {
-    padding: 9px 15px;
-  }
-}

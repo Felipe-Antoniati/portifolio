@@ -6,56 +6,65 @@
 #about-page .main-content {
   background-image: url("../../assets/images/img2.png");
   background-repeat: no-repeat;
-  background-position: 52rem 2rem;
-  background-size: 30rem;
+  background-position: 50rem 6rem;
+  background-size: 25rem;
   transition: all 0.2s ease-in-out;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1145px) {
   #about-page .main-content {
-    background-position: 50rem 2rem;
+    background-position: 38rem 5rem;
   }
-}
 
-@media screen and (max-width: 1200px) {
-  #about-page .main-content {
-    background-position: 35rem 3rem;
-    background-size: 29rem;
-
+  #about-page .main-content .left-main {
+    margin-left: 1rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   #about-page .main-content {
-    background-position: center 30rem;
-    background-size: 20rem;
+    background-image: none;
   }
 
-  #about-page .main-content {
-    height: 800px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #about-page .main-content {
-    background-position: center 29rem;
-    background-size: 22rem;
-  }
-
-  #about-page .main-content {
-    height: 800px;
+  #about-page .main-content p {
+    max-width: 700px;
   }
 }
 
-@media screen and (max-width: 565px) {
-  #about-page .main-content {
-    background-position: center 32rem;
-    background-size: 22rem;
+@media screen and (max-width: 600px) {
+  #about-page .main-content p {
+    max-width: 500px;
   }
 
-  #about-page .main-content {
-    height: 850px;
+  #about-page .secondary-link {
+    padding: 9px 20px;
   }
   
+  #about-page .btn-link {
+    padding: 9px 10px;
+  }
 }
 
+@media screen and (max-width: 491px) {
+
+  #about-page .main-content h1 {
+    font-size: 2.2rem;
+  }
+
+  #about-page .main-content p {
+    font-size: 1.1rem;
+    max-width: 400px;
+  }
+
+  #about-page .secondary-link {
+    padding: 9px 15px;
+  }
+  
+  #about-page .btn-link {
+    padding: 9px 10px;
+  }
+  
+  #about-page .buttons #secondary-btn {
+    margin-left: 0.7rem;
+  }
+}

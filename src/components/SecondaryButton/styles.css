@@ -21,9 +21,3 @@
   color: var(--dark-theme); 
   transition: all 0.2s ease-in-out;
 }
-
-@media screen and (max-width: 499px) {
-  .secondary-link {
-    padding: 9px 10px;
-  }
-}
