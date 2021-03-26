@@ -1,3 +1,4 @@
+import Middle from "../../components/Middle";
 import Main from "../../components/Main";
 import Buttons from "../../components/Buttons";
 
@@ -19,6 +20,9 @@ const Landing = () => {
         secondaryPath="/"
       />
     </Main>
+    <Middle
+      titleMiddle="Estas são alguns dos projetos que participei"
+    />
   </div>)
 
 }

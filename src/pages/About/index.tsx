@@ -1,4 +1,5 @@
 import Main from "../../components/Main";
+import Middle from "../../components/Middle";
 import Buttons from "../../components/Buttons";
 
 import "./styles.css";
@@ -23,6 +24,14 @@ const About = () => {
         secondaryPath="/"
       />
       </Main>
+      <Middle
+      leftTitle="Front-end"
+      leftDescription="HMTL / CSS Javascript
+      React.JS React Native UI / UX Design"
+      rightTitle="Back-end"
+      rightDescription="Node.JS Express Database 
+      SQL / noSQL API RESTfull"
+    />
     </div>
   );
 };
