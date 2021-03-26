@@ -1,6 +1,5 @@
 import Main from "../../components/Main";
 import Buttons from "../../components/Buttons";
-import imgOne from "../../assets/images/img1.png";
 
 import "./styles.css";
 
