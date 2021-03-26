@@ -8,7 +8,6 @@
 
 .left-main {
   max-width: 600px;
-  transition: all 0.2s ease-in-out;
 }
 
 .main-content {
@@ -16,7 +15,7 @@
   height: 500px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: top;
   flex-direction: column;
   padding: 2.6rem calc((100vw - 1000px) / 2);
   transition: all 0.2s ease-in-out;
@@ -59,15 +58,17 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .left-main {
     margin-left: 1.2rem;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 499px) {
   .left-main {
     margin-left: 0.8rem;
+    max-width: 600px;
   }
   
   .main-content p {

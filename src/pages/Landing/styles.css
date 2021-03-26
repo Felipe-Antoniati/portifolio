@@ -6,7 +6,43 @@
 #landing-page .main-content {
   background-image: url("../../assets/images/img.png");
   background-repeat: no-repeat;
-  background-position: 50rem 1rem;
-  background-size: 26rem;
+  background-position: 52rem 2rem;
+  background-size: 25rem;
   transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1400px) {
+  #landing-page .main-content {
+    background-position: 50rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #landing-page .main-content {
+    background-position: 40rem 2rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #landing-page .main-content {
+    background-position: center 20rem;
+    background-size: 22rem;
+  }
+
+  #landing-page .main-content {
+    height: 735px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  #landing-page .main-content {
+    background-position: center 25rem;
+    background-size: 22rem;
+  }
+
+  #landing-page .main-content {
+    height: 815px;
+  }
+  
 }
