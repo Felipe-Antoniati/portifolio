@@ -1,11 +1,12 @@
 import Main from "../../components/Main";
 import Buttons from "../../components/Buttons";
+import imgOne from "../../assets/images/img1.png";
 
 import "./styles.css";
 
 const About = () => {
   return (
-    <div className="about-page">
+    <div id="about-page">
       <Main
         title="sobre mim"
         description="Eu sou Felipe Antoniati, 
@@ -19,13 +20,13 @@ const About = () => {
       </p>
       <Buttons 
         primaryText="Portifolio"
-        primaryPath="/about"
+        primaryPath="/portifolio"
         secondaryText="Solicite um Orçamento"
         secondaryPath="/"
       />
       </Main>
-    </div>)
-
-}
+    </div>
+  );
+};
 
 export default About;

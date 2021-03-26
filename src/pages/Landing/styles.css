@@ -2,3 +2,11 @@
   width: 100%;
   height: 100%;
 }
+
+#landing-page .main-content {
+  background-image: url("../../assets/images/img.png");
+  background-repeat: no-repeat;
+  background-position: 47rem 1rem;
+  background-size: 30rem;
+  transition: all 0.2s ease-in-out;
+}

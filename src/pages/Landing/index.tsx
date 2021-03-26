@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Landing = () => {
   return (
-  <div className="landing-page">
+  <div id="landing-page">
     <Main 
       title="Felipe" 
       subtitle="Antoniati"
