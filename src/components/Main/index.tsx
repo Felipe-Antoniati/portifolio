@@ -5,12 +5,11 @@ interface MainProps {
   subtitle?: string;
   description: string;
   children?: any;
-}
+};
 
-const Main: 
-  React.FC<MainProps> = ({
-    title, subtitle, description, children
-  }) => {
+const Main: React.FC<MainProps> = ({
+  title, subtitle, description, children
+}) => {
   return (
     <section id="main-section">
       <div className="main-content">
@@ -21,7 +20,7 @@ const Main:
         </div>
       </div>
     </section>
-  );  
+  );
 };
 
 export default Main;

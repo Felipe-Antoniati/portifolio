@@ -1,20 +1,24 @@
 #main {
   width: 100%;
   height: 100%;
+  
   display: flex;
   justify-content: space-between;
+  
   padding: 0.5rem calc((100vw - 1000px) / 2);
 }
 
 .main-content {
   width: 100%;
-  height: 470px;
+  height: 100%;
+
   display: flex;
   align-items: flex-start;
   justify-content: top;
   flex-direction: column;
-  padding: 7rem calc((100vw - 1000px) / 2);
+  
   background-color: var(--light-theme);
+  padding: 7rem calc((100vw - 1000px) / 2);
   transition: all 0.2s ease-in-out;
 }
 

@@ -1,20 +1,25 @@
 #middle {
   width: 100%;
   height: 100%;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+
+  background-color: #FFF;
   border-top: 2px solid rgba(58, 58, 58, 0.2);
+  padding: 0.5rem calc((100vw - 1000px) / 2);
 }
 
 .middle-content {
   width: 100%;
-  height: 480px;
+  height: 100%;
+
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
   padding: 2rem calc((100vw - 1400px) / 2);
   transition: all 0.2s ease-in-out;
 }
@@ -28,7 +33,7 @@
   font-size: 1.8rem;
 }
 
-.middle-right ,
+.middle-right,
 .middle-left {
   max-width: 200px;
 }

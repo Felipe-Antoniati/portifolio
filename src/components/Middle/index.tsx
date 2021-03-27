@@ -7,7 +7,7 @@ interface MiddleProps {
   rightTitle?: string;
   rightDescription?: string;
   children?: any;
-}
+};
 
 const Middle: React.FC<MiddleProps> = ({ 
   titleMiddle,
@@ -25,9 +25,9 @@ const Middle: React.FC<MiddleProps> = ({
           <h1>{leftTitle}</h1>
           <p>{leftDescription}</p>
         </div>
-        {children}
+          {children}
         <div className="middle-right">
-        <h1>{rightTitle}</h1>
+          <h1>{rightTitle}</h1>
           <p>{rightDescription}</p>
         </div>
       </div>
