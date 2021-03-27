@@ -1,6 +1,7 @@
 import Main from "../../components/Main";
 import Middle from "../../components/Middle";
 import Button from "../../components/Button";
+import Footer from "../../components/Footer";
 
 import "./styles.css";
 
@@ -41,6 +42,7 @@ export default function About() {
           rightDescription="Node.JS Express Database 
           SQL / noSQL API RESTfull"
         />
+          <Footer />
       </section>
     </div>
   );

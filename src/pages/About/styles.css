@@ -64,30 +64,38 @@
 
   /* === Middle === */
   #about-page .middle-content {
-    background-position-y: 40rem;
+    background-position-y: 26rem;
+    background-size: 10rem;
   }
+  
+  #about-page .middle-right {
+    margin-bottom: 10rem;
+  }
+  
+  
 }
 
 @media screen and (max-width: 491px) {
-
+  
   /* === Main === */
   #about-page .left-main {
     margin-left: 1.5rem;
   }
-
+  
   #about-page .left-main h1 {
     font-size: 2.4rem;
   }
-
+  
   #about-page .left-main p {
     font-size: 1.4rem;
   }
-
+  
   /* === Middle === */
   #about-page .middle-content {
     width: 100%;
+    height: 1000px;
     background-size: 10rem;
-    background-position-y: 45rem;
+    background-position-y: 51rem;
 
     display: flex;
     align-items: center;
