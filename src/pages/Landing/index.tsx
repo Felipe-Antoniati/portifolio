@@ -16,8 +16,8 @@ export default function Landing() {
         <Main
           title="Felipe"
           subtitle="Antoniati"
-          description="Desenvolvedor web front-end, responsável por 
-          criar Aplicativos completos, modernos e multiplataformas"
+          description="Desenvolvedor web Full stack, responsável por 
+          criar Aplicativos modernos e multiplataformas"
         >
           <section className="buttons">
             <Button

@@ -11,7 +11,7 @@ export default function About() {
         <Main
           title="sobre mim"
           description="Eu sou Felipe Antoniati, 
-          desenvolvedor web front-end, 
+          desenvolvedor web Full stack, 
           especializado em Javascript"
         >
           <p>
