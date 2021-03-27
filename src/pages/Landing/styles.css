@@ -87,19 +87,4 @@
   #landing-page .left-main p {
     font-size: 19px;
   }
-
-  /* === Buttons === */
-  #landing-page .primary-link {
-    font-size: 1rem;
-    padding: 9px 9px;
-  }
-
-  #landing-page #secondary-btn {
-    margin-left: 0.2rem;
-  }
-
-  #landing-page .secondary-link {
-    font-size: 1rem;
-    padding: 9px 5px;
-  }
 }

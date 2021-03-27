@@ -1,7 +1,6 @@
 import Main from "../../components/Main";
 import Middle from "../../components/Middle";
-import PrimaryButton from "../../components/PrimaryButton";
-import SecondaryButton from "../../components/SecondaryButton";
+import Button from "../../components/Button";
 
 import "./styles.css";
 
@@ -20,12 +19,14 @@ export default function About() {
             em soluções que facilitam a vida das pessoas
         </p>
           <section className="buttons">
-            <PrimaryButton
-              text="Saiba Mais"
-              path="/about"
+            <Button
+              styleClass="blue-btn"
+              text="Portifolio"
+              path="/portifolio"
             />
-            <SecondaryButton
-              text="Solicite um Orçamento"
+            <Button
+              styleClass="black-btn"
+              text="Orçamento"
               path="/"
             />
           </section>

@@ -1,7 +1,6 @@
 import Main from "../../components/Main";
 import Middle from "../../components/Middle";
-import PrimaryButton from "../../components/PrimaryButton";
-import SecondaryButton from "../../components/SecondaryButton";
+import Button from "../../components/Button";
 import Card from "../../components/Card";
 
 import happyImg from "../../assets/templates/happy.png";
@@ -21,12 +20,14 @@ export default function Landing() {
           criar Aplicativos completos, modernos e multiplataformas"
         >
           <section className="buttons">
-            <PrimaryButton
-              text="Portifolio"
-              path="/portifolio"
+            <Button
+              styleClass="blue-btn"
+              text="Saiba Mais"
+              path="/about"
             />
-            <SecondaryButton
-              text="Solicite um Orçamento"
+            <Button
+              styleClass="black-btn"
+              text="Orçamento"
               path="/"
             />
           </section>
@@ -34,7 +35,7 @@ export default function Landing() {
       </section>
       <section className="absolute">
         <Middle
-          titleMiddle="Veja alguns dos projetos"
+          titleMiddle="Estes são alguns Aplicativos"
         >
           <Card
             title="Happy"

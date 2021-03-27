@@ -2,22 +2,4 @@
   display: flex;
   align-items: center;
 }
-
-.secondary-link {
-  font-weight: 500;
-  border-radius: 4px;
-  padding: 9px 50px;
-  outline: none;
-  cursor: pointer;
-  color: var(--light-theme);
-  background-color: var(--dark-theme);
-  border: 2px solid var(--dark-theme);
-  transition: all 0.2s ease-in-out;
-
-}
-
-.secondary-link:hover  {
-  background-color: var(--light-theme);
-  color: var(--dark-theme); 
-  transition: all 0.2s ease-in-out;
-}
+  

@@ -69,3 +69,13 @@ h2 {
   margin-top: 29rem;
   background-color: #FFF;
 }
+
+/* === Buttons === */
+.buttons {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.buttons #button {
+  margin-right: 0.7rem;
+}

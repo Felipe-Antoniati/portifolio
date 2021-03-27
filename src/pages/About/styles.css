@@ -109,17 +109,4 @@
     font-size: 1.4rem;
     max-width: 150px;
   }
-
-  /* === Buttons === */
-  #about-page .primary-link {
-    padding: 9px 8px;
-  }
-
-  #about-page .secondary-link {
-    padding: 9px 6px;
-  }
-
-  #about-page #secondary-btn {
-    margin-left: 0.6rem;
-  }
 }
