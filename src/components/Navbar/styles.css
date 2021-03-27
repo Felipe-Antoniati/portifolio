@@ -37,7 +37,8 @@
 }
 
 .nav-link img {
-  width: 3rem;
+  width: 4rem;
+  margin-top: 0.5rem;
   transition: all 0.2s ease-in-out;
 }
 

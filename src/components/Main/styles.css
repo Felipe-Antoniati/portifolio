@@ -17,7 +17,7 @@
   justify-content: top;
   flex-direction: column;
   
-  background-color: var(--light-theme);
+  background-color: var(--dark-theme);
   padding: 7rem calc((100vw - 1000px) / 2);
   transition: all 0.2s ease-in-out;
 }

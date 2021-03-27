@@ -16,8 +16,8 @@
 #landing-page .main-content {
   background-image: url("../../assets/images/img.png");
   background-repeat: no-repeat;
-  background-position: 50rem 6rem;
-  background-size: 21rem;
+  background-position: 50rem 5rem;
+  background-size: 18rem;
   padding-top: 8rem;
   transition: all 0.2s ease-in-out;
 }
