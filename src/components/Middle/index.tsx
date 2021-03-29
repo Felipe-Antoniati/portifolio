@@ -19,7 +19,7 @@ const Middle: React.FC<MiddleProps> = ({
 }) => {
   return (
     <section id="middle">
-      <h2>{titleMiddle}</h2>
+      <h3>{titleMiddle}</h3>
       <div className="middle-content">
         <div className="middle-left">
           <h1>{leftTitle}</h1>

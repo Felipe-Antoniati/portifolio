@@ -22,11 +22,11 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer-content">
-        <h2>
+        <h3>
           <AiOutlineCopyright className="copy-icon"/>
           2021 - Felipe 
           <span>Antoniati</span>
-        </h2>
+        </h3>
         <p>antoniati.felipe@gmail.com</p>
       </div>
       <img src={logoImg} alt="Logo" />

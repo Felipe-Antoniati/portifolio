@@ -36,7 +36,7 @@ export default function Landing() {
       </section>
       <section className="absolute">
         <Middle
-          titleMiddle="Estes são alguns Aplicativos"
+          titleMiddle="Veja alguns dos Projetos"
         >
           <Card
             title="Happy"

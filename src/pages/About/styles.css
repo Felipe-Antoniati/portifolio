@@ -4,6 +4,15 @@
 }
 
 /* === Main === */
+#about-page .main-content p{
+  margin-bottom: 1rem;
+}
+
+
+#about-page .buttons {
+  margin-top: 1.6rem;
+}
+
 #about-page .main-content {
   background-image: url("../../assets/images/img2.png");
   background-repeat: no-repeat;
@@ -48,6 +57,7 @@
 
   #about-page .left-main {
     max-width: 700px;
+
   }
 }
 
@@ -61,15 +71,19 @@
   #about-page .left-main {
     max-width: 500px;
   }
-
+  
   /* === Middle === */
   #about-page .middle-content {
-    background-position-y: 26rem;
-    background-size: 10rem;
+    background-position-y: 25rem;
+    background-size: 12rem;
   }
   
+  #about-page .middle-left {
+    margin-bottom: 2rem;
+  }
+
   #about-page .middle-right {
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
   }
   
   
