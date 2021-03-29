@@ -1,0 +1,156 @@
+#contact-page {
+  width: 100%;
+  height: 100%;
+}
+
+/* === Main === */
+#contact-page .main-content p{
+  margin-bottom: 1rem;
+}
+
+
+#contact-page .left-main {
+  max-width: 75%;
+}
+
+#contact-page .main-content {
+  max-height: 500px;
+  background-image: url("../../assets/mail-image.png");
+  background-repeat: no-repeat;
+  background-position: 60rem 8rem;
+  background-size: 10rem;
+  transition: all 0.2s ease-in-out;
+}
+
+#contact-page #button {
+  margin-top: 1.6rem;
+  align-self: flex-end;
+}
+
+#contact-page .middle-content {
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+#contact-page form {
+  width: 90%;
+  height: 400px;
+  margin-top: -15rem;
+  border: 2px solid rgba(58, 58, 58, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #FBFBFB;
+}
+
+#contact-page form input, textarea {
+  background-color: #FFF;
+  padding: 0.8rem;
+  color:rgba(58, 58, 58, 0.7);
+  font-size: 1.2rem;
+  border: 2px solid rgba(58, 58, 58, 0.2);
+  border-radius: 6px;
+}
+
+#contact-page form textarea {
+  width: 100%;
+  height: 200px;
+  margin-top: 1rem;
+  resize: vertical; 
+  padding: 1;
+  max-height: 200px;
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.input-group > * {
+  flex: 49%;
+}
+
+/*=== Responsive === */
+@media screen and (max-width: 1145px) {
+
+  /* === Main === */
+  #contact-page .main-content {
+    background-position-x: 48rem;
+  }
+  #contact-page .left-main {
+    max-width: 65%;
+  }
+
+  #contact-page .left-main {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 958px) {
+
+  /* === Main === */
+  #contact-page .main-content {
+    background-position-x: 40rem;
+  }
+
+  #contact-page .left-main {
+    max-width: 52%;
+  }
+}
+
+@media screen and (max-width: 798px) {
+  #contact-page .main-content {
+    background-position-x: 33rem;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  
+  #contact-page .left-main {
+    max-width: 68%;
+  }
+
+  #contact-page .main-content {
+    background-position-x: 30rem;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  #contact-page .left-main {
+    max-width: 100%;
+  }
+
+  #contact-page .main-content {
+    background-image: none;
+  }
+
+
+  #contact-page .left-main p {
+    font-size: 1.4rem
+  }
+  
+  #contact-page .left-main {
+    margin-left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #contact-page .middle-content {
+    height: 200px  
+  }
+
+  #contact-page .left-main {
+    margin-left: 1rem;
+  }
+
+  #contact-page .left-main p {
+    font-size: 1rem
+  }
+}
